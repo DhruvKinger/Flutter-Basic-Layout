@@ -1,4 +1,4 @@
-# second_app
+# First Practice App
 
 A new Flutter project.
 
