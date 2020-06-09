@@ -6,11 +6,16 @@ class app extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Color(0xff009688),
+        accentColor: Color(0xff7C4DFF)
+      ),
       home: Scaffold(
-        appBar: AppBar(title: Text("Trying with first Project")),
+        appBar: AppBar(title: Text("Mission Launch")),
         body: Center(
             child:
-                Text("Hello flutter layout", style: TextStyle(fontSize: 24.0))),
+                Text(" Company kholenge ", style: TextStyle(fontSize: 24.0))),
         floatingActionButton: FloatingActionButton(
             child: Icon(Icons.lightbulb_outline),
             onPressed: () {
